@@ -1,0 +1,28 @@
+Part A:
+server starts with the following command python Sherniyaz_Zhakenov_part1_server.py
+
+client start with the following command python Sherniyaz_Zhakenov_part1_client.py {Username}
+    for example: python Sherniyaz_Zhakenov_part1_client.py Alice
+
+User will be greeted by the server and be able to send messages to the server via terminal and receive confirmation from the server
+User can exit via Ctrl + C command
+Server can be shutdown via Ctrl + C command
+
+Part B:
+server starts with the following command python Sherniyaz_Zhakenov_part2_server.py
+
+client start with the following command python Sherniyaz_Zhakenov_part2_client.py {Username} {Password}
+    for example: python Sherniyaz_Zhakenov_part2_client.py Alice password
+
+The 2 arguments are used to validate the user before allowing them to connect to the server,
+after the validation had succeeded user can input their messages to terminal
+
+There are 4 users stored in userbase.json with their passwords hashed:
+Username Password
+Alisher adminadmin
+Alice password
+Nunnaly ubw1000
+Holo wisewolf
+
+User can exit via Ctrl + C command
+Server can be shutdown via Ctrl + C command
